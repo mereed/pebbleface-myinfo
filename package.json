@@ -1,0 +1,125 @@
+{
+    "author": "chops",
+    "dependencies": {},
+    "keywords": [],
+    "name": "myinfo",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "MyInfo",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "date": 2,
+            "note": 0,
+            "update": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/warningbt",
+                    "name": "IMAGE_WARNING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-chg.png",
+                    "name": "IMAGE_BATT_CHARGING",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-80.png",
+                    "name": "IMAGE_BATT_070_080",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-40.png",
+                    "name": "IMAGE_BATT_030_040",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-bluetooth.png",
+                    "name": "IMAGE_BLUETOOTH",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt50.png",
+                    "name": "IMAGE_BATT_040_050",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medinfo2.png",
+                    "name": "BACKGROUND_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-10.png",
+                    "name": "IMAGE_BATT_000_010",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-20.png",
+                    "name": "IMAGE_BATT_010_020",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-30.png",
+                    "name": "IMAGE_BATT_020_030",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-60.png",
+                    "name": "IMAGE_BATT_050_060",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-70.png",
+                    "name": "IMAGE_BATT_060_070",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-90.png",
+                    "name": "IMAGE_BATT_080_090",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/medic-batt-100.png",
+                    "name": "IMAGE_BATT_090_100",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "9eb126cd-bc7e-4aaf-9f5a-7e7d6f621d21",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.0.0"
+}
